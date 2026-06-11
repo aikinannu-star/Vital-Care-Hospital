@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | VitalCare Hospital</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo-mark">V</div>
+        <div>
+          <p class="eyebrow">VitalCare Hospital</p>
+          <strong>Modern health for every family.</strong>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a class="button button-primary" href="contact.html">Book Visit</a>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow">Get in touch</p>
+          <h1>Contact our hospital and schedule your next appointment.</h1>
+          <p>Our care coordinators are available to help with appointments, referrals, and general inquiries.</p>
+          <a class="button button-primary" href="#appointment-form">Book Now</a>
+        </div>
+      </section>
+
+      <section class="section section-contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact info</p>
+          <h2>Reach the VitalCare team through phone, email, or our online form.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Visit us</h3>
+            <p>123 Wellness Avenue, Health City, HC 45678</p>
+            <p>Mon–Fri: 7am – 8pm</p>
+          </div>
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <p>(555) 012-3456</p>
+            <p>Emergency line available 24/7</p>
+          </div>
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p>hello@vitalcarehospital.com</p>
+            <p>We reply within one business day.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-appointment" id="appointment-form">
+        <div class="section-heading">
+          <p class="eyebrow">Appointment</p>
+          <h2>Tell us about your visit so we can prepare the right care.</h2>
+        </div>
+        <form class="form-card" id="contact-form">
+          <div class="form-grid">
+            <label>
+              Full Name
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" placeholder="(555) 012-3456" required />
+            </label>
+            <label>
+              Preferred Date
+              <input type="date" name="date" required />
+            </label>
+            <label class="full-width">
+              Message
+              <textarea name="message" rows="5" placeholder="Tell us what you need" required></textarea>
+            </label>
+          </div>
+          <button class="button button-primary" type="submit">Submit Request</button>
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <h3>VitalCare Hospital</h3>
+          <p>Modern treatment, compassionate care, technology-driven recovery.</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>123 Wellness Avenue<br />Health City, HC 45678</p>
+          <p>Phone: (555) 012-3456</p>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <nav class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <p class="footer-note">© <span id="year"></span> VitalCare Hospital. Trusted care for all ages.</p>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
